@@ -1,76 +1,94 @@
 {
-  "parent": "puzzlecubes:story/craft_a_tool",
-  "display": {
-    "icon": {
-      "item": "puzzlecubes:x4cube_pickaxe"
-    },
-    "title": {
-      "translate": "puzzlecubes.advancements.story.craft_all_tools"
-    },
-    "description": {
-      "translate": "puzzlecubes.advancements.story.craft_all_tools.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
-  },
-  "criteria": {
-    "all_tools": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "puzzlecubes:x2cube_axe"
-          },
-          {
-            "item": "puzzlecubes:x2cube_hoe"
-          },
-          {
-            "item": "puzzlecubes:x2cube_pickaxe"
-          },
-          {
-            "item": "puzzlecubes:x2cube_shovel"
-          },
-          {
-            "item": "puzzlecubes:x2cube_sword"
-          },
-          {
-            "item": "puzzlecubes:x3cube_axe"
-          },
-          {
-            "item": "puzzlecubes:x3cube_hoe"
-          },
-          {
-            "item": "puzzlecubes:x3cube_pickaxe"
-          },
-          {
-            "item": "puzzlecubes:x3cube_shovel"
-          },
-          {
-            "item": "puzzlecubes:x3cube_sword"
-          },
-          {
-            "item": "puzzlecubes:x4cube_axe"
-          },
-          {
-            "item": "puzzlecubes:x4cube_hoe"
-          },
-          {
-            "item": "puzzlecubes:x4cube_pickaxe"
-          },
-          {
-            "item": "puzzlecubes:x4cube_shovel"
-          },
-          {
-            "item": "puzzlecubes:x4cube_sword"
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [ "all_tools" ]
-  ]
+	"parent": "puzzlecubes:story/craft_a_tool",
+	"display": {
+		"icon": {
+			"item": "puzzlecubes:x4cube_pickaxe"
+		},
+		"title": {
+			"translate": "puzzlecubes.advancements.story.craft_all_tools"
+		},
+		"description": {
+			"translate": "puzzlecubes.advancements.story.craft_all_tools.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"set_x2_tools": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2cube_axe"
+					},
+					{
+						"item": "puzzlecubes:x2cube_hoe"
+					},
+					{
+						"item": "puzzlecubes:x2cube_pickaxe"
+					},
+					{
+						"item": "puzzlecubes:x2cube_shovel"
+					},
+					{
+						"item": "puzzlecubes:x2cube_sword"
+					}
+				]
+			}
+		},
+		"set_x3_tools": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x3cube_axe"
+					},
+					{
+						"item": "puzzlecubes:x3cube_hoe"
+					},
+					{
+						"item": "puzzlecubes:x3cube_pickaxe"
+					},
+					{
+						"item": "puzzlecubes:x3cube_shovel"
+					},
+					{
+						"item": "puzzlecubes:x3cube_sword"
+					}
+				]
+			}
+		},
+		"set_x4_tools": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x4cube_axe"
+					},
+					{
+						"item": "puzzlecubes:x4cube_hoe"
+					},
+					{
+						"item": "puzzlecubes:x4cube_pickaxe"
+					},
+					{
+						"item": "puzzlecubes:x4cube_shovel"
+					},
+					{
+						"item": "puzzlecubes:x4cube_sword"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"set_x2_tools",
+			"set_x3_tools",
+			"set_x4_tools"
+		]
+	]
 }

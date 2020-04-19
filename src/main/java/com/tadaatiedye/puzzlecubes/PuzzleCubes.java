@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.tadaatiedye.puzzlecubes.init.ArmorInit;
 import com.tadaatiedye.puzzlecubes.init.ToolInit;
 import com.tadaatiedye.puzzlecubes.world.gen.CubeBlocksGen;
 
@@ -46,6 +47,7 @@ public class PuzzleCubes
 		
 //		SoundInit.SOUNDS.register(modEventBus);
 		ToolInit.ITEMS.register(modEventBus);
+		ArmorInit.ITEMS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
 		instance = this;

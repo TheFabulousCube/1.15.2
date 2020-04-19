@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"puzzlecubes:x2cube_helmet",
+			"puzzlecubes:x2cube_chestplate",
+			"puzzlecubes:x2cube_leggings",
+			"puzzlecubes:x2cube_boots"
+		]
+	},
+	"criteria": {
+		"has_x2cubes": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2block_solved",
+						"count": {
+							"min": 4
+						}
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "puzzlecubes:x2cube_boots"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_x2cubes",
+			"has_the_recipe"
+		]
+	]
+}
