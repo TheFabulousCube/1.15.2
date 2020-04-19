@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "puzzlecubes:x2block_mixed",
+      "puzzlecubes:x2block_solved"
+    ]
+  },
+  "criteria": {
+    "has_mixed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x2block_mixed"
+          }
+        ]
+      }
+    },
+    "has_solved": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "puzzlecubes:x2block_solved"
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "puzzlecubes:x2block_mixed"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mixed",
+      "has_solved",
+      "has_the_recipe"
+    ]
+  ]
+}

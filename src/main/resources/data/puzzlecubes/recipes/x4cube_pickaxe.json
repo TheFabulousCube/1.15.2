@@ -1,0 +1,20 @@
+{
+  "group": "cube_pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "puzzlecubes:x4block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x4cube_pickaxe"
+  }
+}

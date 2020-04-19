@@ -1,0 +1,17 @@
+{
+  "group": "cube_leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+	"X X"
+  ],
+  "key": {
+    "X": {
+      "item": "puzzlecubes:x2block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x2cube_leggings"
+  }
+}

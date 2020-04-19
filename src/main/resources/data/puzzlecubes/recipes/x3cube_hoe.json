@@ -1,0 +1,20 @@
+{
+  "group": "cube_hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "puzzlecubes:x3block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x3cube_hoe"
+  }
+}

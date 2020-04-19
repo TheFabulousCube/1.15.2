@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"puzzlecubes:x2block_mixed",
+		"puzzlecubes:x2block_solved",
+		"puzzlecubes:x3block_mixed",
+		"puzzlecubes:x3block_solved",
+		"puzzlecubes:x4block_mixed",
+		"puzzlecubes:x4block_solved"
+	]
+}

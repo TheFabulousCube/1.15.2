@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "puzzlecubes:blocks/x3cube0side0",
+        "down": "puzzlecubes:blocks/x3cube1side0",
+        "up": "puzzlecubes:blocks/x3cube1side1",
+        "north": "puzzlecubes:blocks/x3cube1side2",
+        "east": "puzzlecubes:blocks/x3cube1side3",
+        "south": "puzzlecubes:blocks/x3cube1side4",
+        "west": "puzzlecubes:blocks/x3cube1side5"
+    }
+}

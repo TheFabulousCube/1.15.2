@@ -1,0 +1,15 @@
+{
+  "group": "x2blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "puzzlecubes:x2block_mixed"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x2block_solved"
+  }
+}

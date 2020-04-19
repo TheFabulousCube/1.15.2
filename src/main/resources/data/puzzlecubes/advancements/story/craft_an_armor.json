@@ -1,0 +1,157 @@
+{
+  "parent": "puzzlecubes:story/solve_a_cube",
+  "display": {
+    "icon": {
+      "item": "puzzlecubes:x2cube_helmet"
+    },
+    "title": {
+      "translate": "puzzlecubes.advancements.story.craft_an_armor"
+    },
+    "description": {
+      "translate": "puzzlecubes.advancements.story.craft_an_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+		"puzzlecubes:x2cube_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2cube_helmet"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x2cube_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2cube_chestplate"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x2cube_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2cube_leggings"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x2cube_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x2cube_boots"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x3cube_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x3cube_helmet"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x3cube_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x3cube_chestplate"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x3cube_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x3cube_leggings"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x3cube_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x3cube_boots"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x4cube_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x4cube_helmet"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x4cube_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x4cube_chestplate"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x4cube_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x4cube_leggings"
+					}
+				]
+			}
+		},
+		"puzzlecubes:x4cube_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "puzzlecubes:x4cube_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"puzzlecubes:x2cube_helmet",
+			"puzzlecubes:x2cube_chestplate",
+			"puzzlecubes:x2cube_leggings",
+			"puzzlecubes:x2cube_boots",
+			"puzzlecubes:x3cube_helmet",
+			"puzzlecubes:x3cube_chestplate",
+			"puzzlecubes:x3cube_leggings",
+			"puzzlecubes:x3cube_boots",
+			"puzzlecubes:x4cube_helmet",
+			"puzzlecubes:x4cube_chestplate",
+			"puzzlecubes:x4cube_leggings",
+			"puzzlecubes:x4cube_boots"
+		]
+	]
+}

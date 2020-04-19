@@ -1,0 +1,78 @@
+{
+	"item.armor.equip.cube": {
+		"catagory": "master",
+		"subtitle": "puzzlecubes.subtitles.equip",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/rubiks_cube_single_turn_002"
+			},
+			{
+				"name": "puzzlecubes:block/rubiks_cube_single_turn_003"
+			},
+			{
+				"name": "puzzlecubes:block/rubiks_cube_single_turn_004"
+			},
+			{
+				"name": "puzzlecubes:block/rubiks_cube_single_turn_005"
+			}
+		]
+	},
+	"block.cube.break": {
+		"catagory": "block",
+		"subtitle": "puzzlecubes.subtitles.cube.break",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/laserblasthard"
+			},
+			{
+				"name": "puzzlecubes:block/teleportation02"
+			}
+		]
+	},
+	"block.cube.step": {
+		"catagory": "block",
+		"subtitle": "puzzlecubes.subtitles.cube.step",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/thickheelswoodslow02"
+			}
+		]
+	},
+	"block.cube.place": {
+		"catagory": "block",
+		"subtitle": "puzzlecubes.subtitles.cube.place",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/long_boing_18"
+			},
+			{
+				"name": "puzzlecubes:block/boing_001"
+			},
+			{
+				"name": "puzzlecubes:block/boing_002"
+			},
+			{
+				"name": "puzzlecubes:block/boing_017"
+			}
+		]
+	},
+	"block.cube.hit": {
+		"catagory": "block",
+		"subtitle": "puzzlecubes.subtitles.cube.hit",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/game_retro_musical_positive"
+			}
+		]
+	},
+	"block.cube.fall": {
+		"catagory": "block",
+		"subtitle": "puzzlecubes.subtitles.cube.fall",
+		"sounds": [
+			{
+				"name": "puzzlecubes:block/game_retro_musical_negative"
+			}
+		]
+	}
+	
+}

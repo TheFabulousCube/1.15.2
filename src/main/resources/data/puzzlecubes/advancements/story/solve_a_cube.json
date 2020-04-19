@@ -1,0 +1,58 @@
+{
+  "parent": "puzzlecubes:story/root",
+  "display": {
+    "icon": {
+      "item": "puzzlecubes:x3block_solved"
+    },
+    "title": {
+      "translate": "puzzlecubes.advancements.story.solve_a_cube"
+    },
+    "description": {
+      "translate": "puzzlecubes.advancements.story.solve_a_cube.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "has_a_solved_x2cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x2block_solved"
+          }
+        ]
+      }
+    },
+    "has_a_solved_x3cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x3block_solved"
+          }
+        ]
+      }
+    },
+    "has_a_solved_x4cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x4block_solved"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_a_solved_x2cube",
+      "has_a_solved_x3cube",
+      "has_a_solved_x4cube"
+    ]
+  ]
+}

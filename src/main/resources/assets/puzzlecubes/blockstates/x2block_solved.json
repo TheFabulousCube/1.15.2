@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "puzzlecubes:block/x2block_solved"
+		},
+		"facing=east": {
+			"model": "puzzlecubes:block/x2block_solved",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "puzzlecubes:block/x2block_solved",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "puzzlecubes:block/x2block_solved",
+			"y": 270
+		}
+	}
+}

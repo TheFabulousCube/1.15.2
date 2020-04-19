@@ -1,0 +1,17 @@
+{
+  "group": "cube_chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+	"XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "puzzlecubes:x3block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x3cube_chestplate"
+  }
+}

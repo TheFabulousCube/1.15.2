@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "puzzlecubes:block/x2block_mixed"
+		},
+		"facing=east": {
+			"model": "puzzlecubes:block/x2block_mixed",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "puzzlecubes:block/x2block_mixed",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "puzzlecubes:block/x2block_mixed",
+			"y": 270
+		}
+	}
+}
+

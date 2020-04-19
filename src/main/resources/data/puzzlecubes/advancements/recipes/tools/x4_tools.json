@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "puzzlecubes:x4cube_axe",
+      "puzzlecubes:x4cube_pickaxe",
+      "puzzlecubes:x4cube_shovel",
+      "puzzlecubes:x4cube_hoe",
+      "puzzlecubes:x4cube_sword"
+    ]
+  },
+  "criteria": {
+    "has_x4cubes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x4block_solved"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "puzzlecubes:x4cube_axe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_x4cubes",
+      "has_the_recipe"
+    ]
+  ]
+}

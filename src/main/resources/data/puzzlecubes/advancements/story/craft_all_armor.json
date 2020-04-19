@@ -1,0 +1,67 @@
+{
+  "parent": "puzzlecubes:story/craft_an_armor",
+  "display": {
+    "icon": {
+      "item": "puzzlecubes:x4cube_chestplate"
+    },
+    "title": {
+      "translate": "puzzlecubes.advancements.story.craft_all_armor"
+    },
+    "description": {
+      "translate": "puzzlecubes.advancements.story.craft_all_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "has_all_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puzzlecubes:x2cube_helmet"
+          },
+          {
+            "item": "puzzlecubes:x3cube_helmet"
+          },
+          {
+            "item": "puzzlecubes:x4cube_helmet"
+          },
+          {
+            "item": "puzzlecubes:x2cube_chestplate"
+          },
+          {
+            "item": "puzzlecubes:x3cube_chestplate"
+          },
+          {
+            "item": "puzzlecubes:x4cube_chestplate"
+          },
+          {
+            "item": "puzzlecubes:x2cube_leggings"
+          },
+          {
+            "item": "puzzlecubes:x3cube_leggings"
+          },
+          {
+            "item": "puzzlecubes:x4cube_leggings"
+          },
+          {
+            "item": "puzzlecubes:x2cube_boots"
+          },
+          {
+            "item": "puzzlecubes:x3cube_boots"
+          },
+          {
+            "item": "puzzlecubes:x4cube_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "has_all_armor" ]
+  ]
+}

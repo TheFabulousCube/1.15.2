@@ -1,0 +1,20 @@
+{
+  "group": "cube_shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "puzzlecubes:x4block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x4cube_shovel"
+  }
+}

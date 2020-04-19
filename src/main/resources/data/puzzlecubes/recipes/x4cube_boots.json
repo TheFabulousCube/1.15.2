@@ -1,0 +1,16 @@
+{
+  "group": "cube_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+	"X X"
+  ],
+  "key": {
+    "X": {
+      "item": "puzzlecubes:x4block_solved"
+    }
+  },
+  "result": {
+    "item": "puzzlecubes:x4cube_boots"
+  }
+}
