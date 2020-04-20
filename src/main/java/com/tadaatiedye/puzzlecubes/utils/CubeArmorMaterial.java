@@ -19,15 +19,15 @@ public enum CubeArmorMaterial implements IArmorMaterial {
 	// Forces the textures to assets/MOD_ID/models/armor/x2cube
 	X2ARMOR(PuzzleCubes.MOD_ID + ":x2cube", 5, new int[] { 7, 9, 11, 7 }, 420, SoundInit.ITEM_ARMOR_EQUIP_CUBE,
 			6.9F, () -> {
-				return Ingredient.fromItems(BlockInit.x2block_mixed);
+				return Ingredient.fromItems(BlockInit.x2Block_solved.get());
 			}),
 	X3ARMOR(PuzzleCubes.MOD_ID + ":x3cube", 5, new int[] { 7, 9, 11, 7 }, 420, SoundInit.ITEM_ARMOR_EQUIP_CUBE,
 			6.9F, () -> {
-				return Ingredient.fromItems(BlockInit.x3block_mixed);
+				return Ingredient.fromItems(BlockInit.x3block_solved.get());
 			}),
 	X4ARMOR(PuzzleCubes.MOD_ID + ":x4cube", 5, new int[] { 7, 9, 11, 7 }, 420, SoundInit.ITEM_ARMOR_EQUIP_CUBE,
 			6.9F, () -> {
-				return Ingredient.fromItems(BlockInit.x4block_mixed);
+				return Ingredient.fromItems(BlockInit.x4block_solved.get());
 			});
 
 	private static final int[] MAX_DAMAGE_ARRAY = new int[] { 16, 16, 16, 16 };

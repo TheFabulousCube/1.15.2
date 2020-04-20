@@ -2,7 +2,6 @@ package com.tadaatiedye.puzzlecubes.init;
 
 import com.tadaatiedye.puzzlecubes.PuzzleCubes;
 
-import net.minecraft.block.SoundType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.registry.Registry;
