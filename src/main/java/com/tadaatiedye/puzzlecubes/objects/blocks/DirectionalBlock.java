@@ -71,15 +71,4 @@ public class DirectionalBlock extends Block {
 		builder.add(FACING);
 	}
 
-	@Override
-	public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player,
-			Hand handIn, BlockRayTraceResult result) {
-		if (!worldIn.isRemote()) {
-			ServerWorld serverWorld = (ServerWorld) worldIn;
-			LightningBoltEntity entity = new LightningBoltEntity(worldIn, pos.getX(), pos.getY(), pos.getZ(), false);
-			serverWorld.addLightningBolt(entity);
-		}
-		return ActionResultType.SUCCESS;
-	}
-
 }

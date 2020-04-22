@@ -13,6 +13,7 @@ import net.minecraft.util.LazyValue;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.fml.RegistryObject;
 
 public enum CubeArmorMaterial implements IArmorMaterial {
 
@@ -40,13 +41,13 @@ public enum CubeArmorMaterial implements IArmorMaterial {
 	private final LazyValue<Ingredient> repairMaterial;
 
 	private CubeArmorMaterial(String nameIn, int maxDamageFactorIn, int[] damageReductionAmountIn,
-			int enchantabilityIn, SoundEvent soundEventIn, float toughnessIn,
+			int enchantabilityIn, SoundEvent itemArmorEquipCube, float toughnessIn,
 			Supplier<Ingredient> repairMaterialIn) {
 		this.name = nameIn;
 		this.maxDamageFactor = maxDamageFactorIn;
 		this.damageReductionAmountArray = damageReductionAmountIn;
 		this.enchantability = enchantabilityIn;
-		this.soundEvent = soundEventIn;
+		this.soundEvent = itemArmorEquipCube;
 		this.toughness = toughnessIn;
 		this.repairMaterial = new LazyValue<>(repairMaterialIn);
 	}
