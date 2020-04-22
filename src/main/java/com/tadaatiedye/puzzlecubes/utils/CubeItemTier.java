@@ -18,7 +18,7 @@ public enum CubeItemTier implements IItemTier
 	/** Enchantability (wood = 15, stone = 5, iron = 14, diamond = 10, gold = 22) */
 	
 	X2TIER(1, 400, 4.0f, 1.5f, 12, () -> {
-		return Ingredient.fromItems(BlockInit.x2Block_solved.get());
+		return Ingredient.fromItems(BlockInit.x2block_solved.get());
 	}),
 
 	X3TIER(2, 900, 9.0f, 2.5f, 16, () -> {
